@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="flex justify-between">
       <img
-        src="../../../public/creativity.png"
+        src="https://cdn-icons-png.flaticon.com/256/4228/4228687.png"
         className="h-9 w-9 mt-4 ml-4 "
       />
       <div className="flex mt-4 mr-4">

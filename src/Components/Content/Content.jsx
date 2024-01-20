@@ -16,7 +16,7 @@ function Content() {
   };
   const drinks = {
     title: "Lemonade",
-    image:"../../../public/l1.jpeg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3E_EjzT-dC9T2iNsAi03jhBXj0GfIEM5TdA&usqp=CAU",
     description:
       " Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed doeiusmod tempor incididunt utss labore et dolore magna aliqua..",
     rating: "3.5/5",

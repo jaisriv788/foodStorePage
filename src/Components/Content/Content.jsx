@@ -26,7 +26,7 @@ function Content() {
   return (
     <div className="bg-blue-100 w-full rounded-r-2xl overflow-hidden hover:overflow-y-scroll">
       <div className="flex justify-evenly h-8  mt-3 mx-3 ">
-        <div className="flex items-center bg-white w-3/6 h-full rounded-full">
+        <div className="flex items-center bg-white w-3/6 h-full rounded-11/12">
           <SearchIcon />
           <input
             className="bg-transparent border-none outline-none w-full"

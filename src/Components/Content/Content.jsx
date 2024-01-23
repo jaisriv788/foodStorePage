@@ -11,7 +11,7 @@ function Content() {
     description:
       " Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed doeiusmod tempor incididunt utss labore et dolore magna aliqua..",
     rating: "2/5",
-    star: 1,
+    star: 2,
     price: "$20.00",
   };
   const drinks = {
@@ -19,8 +19,8 @@ function Content() {
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3E_EjzT-dC9T2iNsAi03jhBXj0GfIEM5TdA&usqp=CAU",
     description:
       " Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed doeiusmod tempor incididunt utss labore et dolore magna aliqua..",
-    rating: "3.5/5",
-    star: 3,
+    rating: "4/5",
+    star: 4,
     price: "$15.00",
   };
   return (

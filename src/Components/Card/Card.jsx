@@ -17,31 +17,26 @@ function Card({ data }) {
             <div className="rating rating-md ">
               <input
                 type="radio"
-                name="rating-1"
                 className="mask mask-star"
                 checked={data.star == 1 ? true : false}
               />
               <input
                 type="radio"
-                name="rating-1"
                 className="mask mask-star"
                 checked={data.star == 2 ? true : false}
               />
               <input
                 type="radio"
-                name="rating-1"
                 className="mask mask-star"
                 checked={data.star == 3 ? true : false}
               />
               <input
                 type="radio"
-                name="rating-1"
                 className="mask mask-star"
                 checked={data.star == 4 ? true : false}
               />
               <input
                 type="radio"
-                name="rating-1"
                 className="mask mask-star"
                 checked={data.star == 5 ? true : false}
               />

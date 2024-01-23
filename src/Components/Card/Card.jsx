@@ -41,7 +41,7 @@ function Card({ data }) {
                 checked={data.star == 5 ? true : false}
               />
             </div>
-            <div className="text-xs pt-1">{data.rating}</div>
+            <div className="lg:text-xs lg:pt-1 hidden">{data.rating}</div>
           </div>
           <div className="font-bold mr-3">{data.price}</div>
         </div>

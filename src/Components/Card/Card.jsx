@@ -2,9 +2,9 @@ import React from "react";
 
 function Card({ data }) {
   return (
-    <div className="flex w-4/5 xl:w-5/12 h-max mb-10 bg-white rounded-3xl">
+    <div className="flex w-full md:w-4/5 xl:w-5/12 md:h-max h-max mb-10 bg-white rounded-3xl overflow-hidden">
       <img
-        className="rounded-l-3xl h-32"
+        className="rounded-l-3xl "
         src={data.image}
         width="150"
         alt="img"
@@ -12,7 +12,7 @@ function Card({ data }) {
       <div className="flex flex-col justify-center ml-1">
         <div className="text-lg font-bold">{data.title}</div>
         <div className="text-xs">{data.description}</div>
-        <div className="flex justify-between mt-3">
+        <div className="flex flex-col sm:flex-row sm:justify-between mt-3">
           <div className="flex h-full">
             <div className="rating rating-md ">
               <input

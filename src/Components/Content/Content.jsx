@@ -49,7 +49,7 @@ function Content() {
       </div>
       <div className="mt-3 mx-3">
         <div className="text-xl font-bold ml-16">Pizzas(4)</div>
-        <div className="flex flex-wrap justify-evenly mt-2">
+        <div className="flex flex-col lg:flex-wrap lg:justify-evenly mt-2">
           <Card data={pizza} />
           <Card data={pizza} />
           <Card data={pizza} />

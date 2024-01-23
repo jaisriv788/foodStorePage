@@ -13,7 +13,7 @@ function Filter() {
   }
 
   return (
-    <div className="bg-white rounded-2xl w-3/12 ">
+    <div className="hidden sm:block bg-white rounded-2xl w-3/12 ">
       <div className=" mt-2 ml-4 text-blue-950 ">
         <div className="text-2xl mb-2 font-bold">Items</div>
         <div className="my-1">

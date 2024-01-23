@@ -29,7 +29,7 @@ function Content() {
         <div className="flex items-center bg-white w-3/6 h-full rounded-full">
           <SearchIcon />
           <input
-            className="bg-transparent border-none outline-none"
+            className="bg-transparent border-none outline-none w-full"
             placeholder="Search"
             type="input"
           ></input>

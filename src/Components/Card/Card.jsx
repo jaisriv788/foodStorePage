@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ data }) {
   return (
-    <div className="flex w-5/12 h-max mb-10 bg-white rounded-3xl">
+    <div className="flex w-fit lg:w-5/12 h-max mb-10 bg-white rounded-3xl">
       <img
         className="rounded-l-3xl h-32"
         src={data.image}

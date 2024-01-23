@@ -20,7 +20,7 @@ function Filter() {
           <div className="flex justify-between">
             <div className="text-lg font-bold">Filters</div>
             <div>
-              <a className="underline mr-4 hover:text-blue-400 cursor-pointer">
+              <a className="underline mr-4 hover:text-blue-400 cursor-pointer hidden lg:block">
                 clear all
               </a>
             </div>
@@ -69,7 +69,7 @@ function Filter() {
           <div className="flex justify-between">
             <div className="text-lg font-bold">Taste</div>
             <div>
-              <a className="underline mr-4 hover:text-blue-400 cursor-pointer">
+              <a className="underline mr-4 hover:text-blue-400 cursor-pointer hidden lg:block">
                 clear all
               </a>
             </div>
@@ -118,7 +118,7 @@ function Filter() {
           <div className="flex justify-between">
             <div className="text-xl font-bold">Taste</div>
             <div>
-              <a className="underline mr-4 hover:text-blue-400 cursor-pointer">
+              <a className="underline mr-4 hover:text-blue-400 cursor-pointer hidden lg:block">
                 clear all
               </a>
             </div>
@@ -140,7 +140,7 @@ function Filter() {
           <div className="flex justify-between">
             <div className="text-lg font-bold">Rating</div>
             <div>
-              <a className="underline mr-4 hover:text-blue-400 cursor-pointer">
+              <a className="underline mr-4 hover:text-blue-400 cursor-pointer hidden lg:block">
                 clear all
               </a>
             </div>
@@ -165,7 +165,7 @@ function Filter() {
           <div className="flex justify-between">
             <div className="text-lg font-bold">Country</div>
             <div>
-              <a className="underline mr-4 hover:text-blue-400 cursor-pointer">
+              <a className="underline mr-4 hover:text-blue-400 cursor-pointer hidden lg:block">
                 clear all
               </a>
             </div>

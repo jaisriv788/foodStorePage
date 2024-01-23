@@ -24,7 +24,7 @@ function Content() {
     price: "$15.00",
   };
   return (
-    <div className="bg-blue-100 w-full rounded-r-2xl overflow-hidden hover:overflow-y-scroll">
+    <div className="bg-blue-100 w-full rounded-2xl sm:rounded-r-2xl overflow-hidden hover:overflow-y-scroll">
       <div className="flex justify-evenly h-8  mt-3 mx-3 ">
         <div className="flex items-center bg-white w-3/6 h-full rounded-full">
           <SearchIcon />
